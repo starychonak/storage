@@ -10,18 +10,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>storage-controller</artifactId>
+    <packaging>jar</packaging>
 
-    <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>org.starychonak</groupId>-->
-<!--            <artifactId>storage-dto</artifactId>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>${springdoc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.starychonak</groupId>
+            <artifactId>storage-dto</artifactId>
+            <version>latest</version>
+        </dependency>
+    </dependencies>
 
 </project>

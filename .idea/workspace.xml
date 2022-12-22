@@ -4,11 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d806664-8078-42db-a6fc-380963aa1583" name="Changes" comment="" />
+    <list default="true" id="7d806664-8078-42db-a6fc-380963aa1583" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/CommonApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/configuration/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/controller/StorageApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/controller/impl/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-dto/src/main/java/StorageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2a140a36-9735-41f4-8d10-e85b7b034bb8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2a140a36-9735-41f4-8d10-e85b7b034bb8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-dto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-starter/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -20,17 +53,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "D:/apps/storage",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "spring.configuration.checksum": "28f7759c7d2a19e6a1e21c2e85a20cf8"
   },
@@ -40,6 +79,26 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="StorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="storage-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.starychonak.StorageApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.starychonak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.StorageApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,10 +109,22 @@
       <updated>1670262544945</updated>
       <workItem from="1670262546300" duration="6003000" />
       <workItem from="1670764446683" duration="2084000" />
+      <workItem from="1671723103692" duration="3856000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
