@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d806664-8078-42db-a6fc-380963aa1583" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/CommonApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/configuration/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/controller/StorageApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/controller/impl/StorageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-dto/src/main/java/StorageDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2a140a36-9735-41f4-8d10-e85b7b034bb8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2a140a36-9735-41f4-8d10-e85b7b034bb8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7d806664-8078-42db-a6fc-380963aa1583" name="Changes" comment="added first controller&lt; dependencies and swagger config">
+      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/TestModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-dto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-controller/src/main/java/CommonApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/CommonApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-controller/src/main/java/configuration/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/configuration/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-controller/src/main/java/controller/StorageApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/controller/StorageApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-controller/src/main/java/controller/impl/StorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/controller/impl/StorageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage-starter/src/main/java/org/starychonak/StorageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage-starter/src/main/java/org/starychonak/StorageApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +61,12 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "28f7759c7d2a19e6a1e21c2e85a20cf8"
+    "spring.configuration.checksum": "e4e198fc3feb546eafc76ad7c0b99a68"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -109,8 +104,17 @@
       <updated>1670262544945</updated>
       <workItem from="1670262546300" duration="6003000" />
       <workItem from="1670764446683" duration="2084000" />
-      <workItem from="1671723103692" duration="3856000" />
+      <workItem from="1671723103692" duration="5986000" />
+      <workItem from="1671805934908" duration="2195000" />
     </task>
+    <task id="LOCAL-00001" summary="added first controller&lt; dependencies and swagger config">
+      <created>1671727014997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671727014997</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added first controller&lt; dependencies and swagger config" />
+    <option name="LAST_COMMIT_MESSAGE" value="added first controller&lt; dependencies and swagger config" />
   </component>
 </project>

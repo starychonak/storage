@@ -11,4 +11,20 @@
 
     <artifactId>storage-starter</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.starychonak</groupId>
+            <artifactId>storage-controller</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
