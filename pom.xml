@@ -16,17 +16,16 @@
     </parent>
 
     <modules>
-        <module>storage-dao</module>
         <module>storage-controller</module>
         <module>storage-service</module>
         <module>storage-starter</module>
-        <module>storage-dto</module>
     </modules>
 
     <properties>
         <springdoc.version>1.5.12</springdoc.version>
         <spring.version>5.3.13</spring.version>
         <lombok.version>1.18.22</lombok.version>
+        <mapstruct.version>1.4.2.Final</mapstruct.version>
     </properties>
 
     <dependencies>
@@ -58,9 +57,40 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
             </dependency>
+
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
-
+    <build>
+    <plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven-compiler-plugin.version}</version>
+        <configuration>
+            <source>${maven.compiler.source}</source>
+            <target>${maven.compiler.target}</target>
+            <annotationProcessorPaths>
+                <path>
+                    <groupId>org.projectlombok</groupId>
+                    <artifactId>lombok</artifactId>
+                    <version>${lombok.version}</version>
+                </path>
+                <path>
+                    <groupId>org.mapstruct</groupId>
+                    <artifactId>mapstruct-processor</artifactId>
+                    <version>${mapstruct.version}</version>
+                </path>
+            </annotationProcessorPaths>
+        </configuration>
+    </plugin>
+    </plugins>
+    </build>
 
 </project>

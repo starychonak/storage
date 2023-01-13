@@ -27,6 +27,10 @@
             <artifactId>storage-dto</artifactId>
             <version>latest</version>
         </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
