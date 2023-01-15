@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d806664-8078-42db-a6fc-380963aa1583" name="Changes" comment="component scanning is corrected (only for controller)">
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/mapper/BaseDTOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/mapper/ProductDTOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/model/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2a140a36-9735-41f4-8d10-e85b7b034bb8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2a140a36-9735-41f4-8d10-e85b7b034bb8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/TestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/configuration/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/configuration/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/controller/StorageApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/controller/StorageApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/controller/impl/StorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/controller/impl/StorageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-dao/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-dto/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage-dto/src/main/java/StorageDTO.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/controller/ProductApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-controller/src/main/java/org/starychonak/controller/impl/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,35 +41,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "D:/apps/storage",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "193c19bc92a2e7a418154bea15a21fbd"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/apps/storage&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;193c19bc92a2e7a418154bea15a21fbd&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="StorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="storage-starter" />
