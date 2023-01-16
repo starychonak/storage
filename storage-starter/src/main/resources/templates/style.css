@@ -1,0 +1,44 @@
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    padding: 4px;
+    text-align: center;
+}
+
+.header {
+    height: 40px;
+    background-color: lightgray;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-data-link {
+    margin: 4px 10px;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-222.4345.14">
+  <component name="dataSourceStorageLocal" created-in="IU-222.4167.29">
     <data-source name="postgres" uuid="2a140a36-9735-41f4-8d10-e85b7b034bb8">
       <database-info product="PostgreSQL" version="15.1 (Debian 15.1-1.pgdg110+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="15.1" exact-driver-version="42.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -15,7 +15,10 @@
               <node kind="schema" qname="@" />
             </node>
             <node kind="database" qname="postgres">
-              <node kind="schema" qname="erp" />
+              <node kind="schema">
+                <name qname="warehouse" />
+                <name qname="erp" />
+              </node>
             </node>
           </node>
         </introspection-scope>
